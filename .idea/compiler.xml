@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-resource-module" />
+        <module name="spring-ioc-di" />
         <module name="JavaResource" />
+        <module name="spring-resource-module" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-ioc-di" options="-parameters" />
       <module name="spring-resource-module" options="-parameters" />
     </option>
   </component>
