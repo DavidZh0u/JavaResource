@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-resource-module/pom.xml" />
         <option value="$PROJECT_DIR$/spring-ioc-di/pom.xml" />
+        <option value="$PROJECT_DIR$/java-multi-thread/pom.xml" />
+        <option value="$PROJECT_DIR$/java-collection-util/pom.xml" />
       </list>
     </option>
   </component>
