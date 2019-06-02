@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea9d8c9c-be91-40ad-91ac-8e168ab9df56" name="Default Changelist" comment="" />
+    <list default="true" id="ea9d8c9c-be91-40ad-91ac-8e168ab9df56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/AtomicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ReentrantLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SemapphoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/entity/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/entity/UserService.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-resource-module/target/" />
@@ -22,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-resource-module/src/test/java/com/david/SpirngRunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="351">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,47 +38,97 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource-module/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource-module/src/main/java/com/david/service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource-module/src/main/java/com/david/service/impl/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SynchronizedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <folding>
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/entity/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1715#1716#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SemapphoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/AtomicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ReentrantLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/locks/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
             </state>
           </provider>
         </entry>
@@ -109,6 +166,11 @@
         <option value="$PROJECT_DIR$/spring-resource-module/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/spring-resource-module/src/test/java/com/david/SpirngRunnerTest.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SynchronizedTest.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ReentrantLockTest.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/entity/UserService.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SemapphoreTest.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/AtomicTest.java" />
       </list>
     </option>
   </component>
@@ -134,17 +196,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaResource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaResource" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
@@ -201,47 +259,11 @@
               <item name="david" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaResource" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-resource-module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaResource" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-resource-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaResource" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-resource-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaResource" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-resource-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaResource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaResource" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-resource-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="david" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +274,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,7 +288,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpirngRunnerTest.saveStudent">
+  <component name="RunManager" selected="Application.AtomicTest">
+    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.david.example.AtomicTest" />
+      <module name="java-multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.david.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.david.example.ReentrantLockTest" />
+      <module name="java-multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.david.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemapphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.david.example.SemapphoreTest" />
+      <module name="java-multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.david.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpirngRunnerTest.saveStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-resource-module" />
       <extension name="coverage">
@@ -278,38 +339,6 @@
       <option name="PACKAGE_NAME" value="com.david" />
       <option name="MAIN_CLASS_NAME" value="com.david.SpirngRunnerTest" />
       <option name="METHOD_NAME" value="saveStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringResourceModuleApplicationTests.testCgLibProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-resource-module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.david.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.david" />
-      <option name="MAIN_CLASS_NAME" value="com.david.SpringResourceModuleApplicationTests" />
-      <option name="METHOD_NAME" value="testCgLibProxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringResourceModuleApplicationTests.testJdkProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-resource-module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.david.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.david" />
-      <option name="MAIN_CLASS_NAME" value="com.david.SpringResourceModuleApplicationTests" />
-      <option name="METHOD_NAME" value="testJdkProxy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -354,10 +383,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicTest" />
+        <item itemvalue="Application.SemapphoreTest" />
+        <item itemvalue="Application.ReentrantLockTest" />
         <item itemvalue="JUnit.SpirngRunnerTest.saveStudent" />
         <item itemvalue="JUnit.SpringTest.testSpring" />
-        <item itemvalue="JUnit.SpringResourceModuleApplicationTests.testCgLibProxy" />
-        <item itemvalue="JUnit.SpringResourceModuleApplicationTests.testJdkProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +405,8 @@
       <workItem from="1558439422058" duration="1198000" />
       <workItem from="1558858228935" duration="3909000" />
       <workItem from="1558885759254" duration="388000" />
-      <workItem from="1559354503634" duration="1804000" />
+      <workItem from="1559354503634" duration="4495000" />
+      <workItem from="1559447192992" duration="11674000" />
     </task>
     <task id="LOCAL-00001" summary="对人体符合担任法国和">
       <created>1559355491141</created>
@@ -391,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559356386025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of github.com:/DavidZh0u/JavaResource&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/vcs.xml">
+      <created>1559356736500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559356736500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -427,13 +465,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15216000" />
+    <option name="totallyTimeSpent" value="29581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1447" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2824726" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28169015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -443,7 +481,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31985018" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31985018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +514,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="对人体符合担任法国和" />
-    <option name="LAST_COMMIT_MESSAGE" value="对人体符合担任法国和" />
+    <MESSAGE value="Merge branch 'master' of github.com:/DavidZh0u/JavaResource&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/vcs.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:/DavidZh0u/JavaResource&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/vcs.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-resource-module/src/main/java/com/david/proxy/UserProxy.java" />
@@ -551,44 +590,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/service/StudentService.java">
+    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/service/StudentService.java" />
+    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/service/impl/StudentServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/test/java/com/david/SpringAnnotateModuleApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/test/java/com/david/SpringTest.java" />
+    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/SpringAnnotateModuleApplication.java" />
+    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/config/SpringContextConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/service/impl/StudentServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/test/java/com/david/SpringAnnotateModuleApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/test/java/com/david/SpringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3105">
+          <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -613,48 +638,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/SpringAnnotateModuleApplication.java">
+    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-annotate-module/src/main/java/com/david/config/SpringContextConfiguration.java">
+    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="595" column="56" selection-start-line="595" selection-start-column="56" selection-end-line="595" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5694#5695#0" expanded="true" />
+            <element signature="e#5775#5776#0" expanded="true" />
+            <element signature="e#5811#5812#0" expanded="true" />
+            <element signature="e#5878#5879#0" expanded="true" />
+            <element signature="e#5914#5915#0" expanded="true" />
+            <element signature="e#5960#5961#0" expanded="true" />
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-resource-module/src/test/java/com/david/SpirngRunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="351">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SynchronizedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+        <state relative-caret-position="475">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ReentrantLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="1026">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/entity/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SemapphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="153" column="6" lean-forward="true" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+            <element signature="e#5214#5215#0" expanded="true" />
+            <element signature="e#5290#5291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/AtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>

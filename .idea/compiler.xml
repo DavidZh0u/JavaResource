@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaResource" />
-        <module name="java-multi-thread" />
         <module name="spring-ioc-di" />
+        <module name="java-multi-thread" />
+        <module name="JavaResource" />
         <module name="spring-resource-module" />
       </profile>
     </annotationProcessing>
