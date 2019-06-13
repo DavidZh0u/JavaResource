@@ -2,11 +2,15 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/../huazhu-serve/huazhu-order-business-service/src/main/java/huazhu/serve/business/service/PayService.java" description="BaseResponse commonRefundBill(CommonRefundRequest ..." line="35" />
-    <bookmark url="file://$PROJECT_DIR$/../huazhu-serve/huazhu-h5-service/src/main/java/huazhu/serve/service/OrderService.java" description="String queryCtripOrder(String sonOrderId);" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/../huazhu-serve/huazhu-serve-web-h5/src/main/java/huazhu/serve/web/controller/HFiveLoginController.java" description="service.getOpenId(request, response);" line="61" />
+    <bookmark url="file://$PROJECT_DIR$/../huazhu-serve/huazhu-common-service/src/main/java/huazhu/serve/service/MailService.java" description="void send(String[] toUsers,String title,String con..." line="10" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e463a1-6f6c-4b28-94a3-2217612dea02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ThreadJoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MySemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyVolatile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,17 +52,68 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ThreadJoinTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+              <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
               <folding>
                 <element signature="class#Runnable_1#0;class#ThreadJoinTest#0" />
                 <element signature="class#Runnable_2#0;class#ThreadJoinTest#0" />
                 <element signature="class#Runnable_3#0;class#ThreadJoinTest#0" />
                 <element signature="class#Runnable_4#0;class#ThreadJoinTest#0" />
                 <element signature="class#Runnable_5#0;class#ThreadJoinTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCountDownLatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-864">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="e#328#792#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#810#1274#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCyclicBarrier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MySemaphore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyVolatile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="e#254#404#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,6 +158,10 @@
         <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/SemapphoreTest.java" />
         <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/AtomicTest.java" />
         <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ThreadJoinTest.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCountDownLatch.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCyclicBarrier.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MySemaphore.java" />
+        <option value="$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyVolatile.java" />
       </list>
     </option>
   </component>
@@ -221,9 +280,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadJoinTest">
-    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.david.example.AtomicTest" />
+  <component name="RunManager" selected="Application.MyVolatile">
+    <configuration name="MyCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.david.example.MyCountDownLatch" />
       <module name="java-multi-thread" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.david.example.ReentrantLockTest" />
+    <configuration name="MyCyclicBarrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.david.example.MyCyclicBarrier" />
       <module name="java-multi-thread" />
       <extension name="coverage">
         <pattern>
@@ -248,8 +307,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemapphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.david.example.SemapphoreTest" />
+    <configuration name="MySemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.david.example.MySemaphore" />
+      <module name="java-multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.david.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.david.example.MyVolatile" />
       <module name="java-multi-thread" />
       <extension name="coverage">
         <pattern>
@@ -270,22 +342,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpirngRunnerTest.saveStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-resource-module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.david.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.david" />
-      <option name="MAIN_CLASS_NAME" value="com.david.SpirngRunnerTest" />
-      <option name="METHOD_NAME" value="saveStudent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyVolatile" />
+        <item itemvalue="Application.MySemaphore" />
+        <item itemvalue="Application.MyCyclicBarrier" />
+        <item itemvalue="Application.MyCountDownLatch" />
         <item itemvalue="Application.ThreadJoinTest" />
-        <item itemvalue="Application.AtomicTest" />
-        <item itemvalue="Application.SemapphoreTest" />
-        <item itemvalue="Application.ReentrantLockTest" />
-        <item itemvalue="JUnit.SpirngRunnerTest.saveStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +394,7 @@
       <workItem from="1559354503634" duration="4495000" />
       <workItem from="1559447192992" duration="11674000" />
       <workItem from="1559530084434" duration="5271000" />
-      <workItem from="1560131276430" duration="1174000" />
+      <workItem from="1560131276430" duration="13267000" />
     </task>
     <task id="LOCAL-00001" summary="对人体符合担任法国和">
       <created>1559355491141</created>
@@ -361,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559356736500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dahj">
+      <created>1560145492905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560145492905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -397,7 +460,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40223000" />
+    <option name="totallyTimeSpent" value="52316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
@@ -413,7 +476,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.491684" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.491684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +544,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="对人体符合担任法国和" />
     <MESSAGE value="Merge branch 'master' of github.com:/DavidZh0u/JavaResource&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/vcs.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:/DavidZh0u/JavaResource&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/vcs.xml" />
+    <MESSAGE value="dahj" />
+    <option name="LAST_COMMIT_MESSAGE" value="dahj" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-resource-module/src/main/java/com/david/proxy/UserProxy.java" />
@@ -718,13 +782,67 @@
     <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/ThreadJoinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
           <folding>
             <element signature="class#Runnable_1#0;class#ThreadJoinTest#0" />
             <element signature="class#Runnable_2#0;class#ThreadJoinTest#0" />
             <element signature="class#Runnable_3#0;class#ThreadJoinTest#0" />
             <element signature="class#Runnable_4#0;class#ThreadJoinTest#0" />
             <element signature="class#Runnable_5#0;class#ThreadJoinTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#328#792#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#810#1274#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/huazhu-env/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="286" column="72" lean-forward="true" selection-start-line="286" selection-start-column="72" selection-end-line="286" selection-end-column="72" />
+          <folding>
+            <element signature="e#9581#9582#0" expanded="true" />
+            <element signature="e#9616#9617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyCyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MySemaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-multi-thread/src/main/java/com/david/example/MyVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="e#254#404#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
           </folding>
         </state>
       </provider>
