@@ -18,7 +18,7 @@ public class MyBlockQueue {
     static class TaskInter implements Runnable{
         @Override
         public void run() {
-
+            System.out.println("000000");
         }
     }
 
