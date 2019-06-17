@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-di" />
-        <module name="java-multi-thread" />
-        <module name="JavaResource" />
-        <module name="java-collection-util" />
         <module name="spring-resource-module" />
+        <module name="java-multi-thread" />
+        <module name="interview-exam-demo" />
+        <module name="java-collection-util" />
+        <module name="JavaResource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="interview-exam-demo" options="-parameters" />
       <module name="java-collection-util" options="-parameters" />
       <module name="java-multi-thread" options="-parameters" />
       <module name="spring-ioc-di" options="-parameters" />
