@@ -1,6 +1,7 @@
 package com.david.springiocdi.service.impl;
 
 import com.david.springiocdi.service.StudentService;
+import org.springframework.stereotype.Service;
 
 /**
  * @ClassName StudentServiceImpl
