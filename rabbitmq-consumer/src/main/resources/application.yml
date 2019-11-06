@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: 192.168.163.102
+    port: 5672
+    username: david
+    password: admin321
+    virtual-host: /dev
+#    listener:
+#      simple:
+#        prefetch: 1
+server:
+  port: 8081

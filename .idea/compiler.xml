@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-di" />
+        <module name="rabbitmq-producer" />
+        <module name="java-basic-grammar" />
+        <module name="rabbitmq-consumer-one" />
         <module name="spring-resource-module" />
         <module name="java-multi-thread" />
-        <module name="java-basic-grammar" />
+        <module name="rabbitmq-consumer" />
         <module name="interview-exam-demo" />
         <module name="java-collection-util" />
         <module name="JavaResource" />
@@ -25,6 +28,9 @@
       <module name="java-basic-grammar" options="-parameters" />
       <module name="java-collection-util" options="-parameters" />
       <module name="java-multi-thread" options="-parameters" />
+      <module name="rabbitmq-consumer" options="-parameters" />
+      <module name="rabbitmq-consumer-one" options="-parameters" />
+      <module name="rabbitmq-producer" options="-parameters" />
       <module name="spring-ioc-di" options="-parameters" />
       <module name="spring-resource-module" options="-parameters" />
     </option>
