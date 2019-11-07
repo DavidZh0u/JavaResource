@@ -1,6 +1,7 @@
 package com.david.mq;
 
 
+import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,9 @@ public class Sender {
     @Autowired
     private Queue workQueue;
 
+    @Autowired
+    private FanoutExchange psExchange;
+
     public void send(String message) {
         this.template.convertAndSend(simpleQueue.getName(), message);
         System.out.println("发送者 => "+simpleQueue.getName()+" => "+message);
@@ -31,6 +35,11 @@ public class Sender {
     public void sendToWorkQueue(String msg){
         this.template.convertAndSend(workQueue.getName(), msg);
         System.out.println("发送者 => "+workQueue.getName()+" => "+msg);
+    }
+
+    public void sendToPsExchange(String msg){
+        this.template.convertAndSend(psExchange.getName(),"",msg);
+        System.out.println("发送者 => "+psExchange.getName()+" => "+msg);
     }
 
 }

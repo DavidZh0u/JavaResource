@@ -17,7 +17,7 @@ class RabbitmqProducerApplicationTests {
 
     @Test
     public void simpleQueueSendTest(){
-        sender.send("Hello Simple Queue!111111111");
+        sender.send("Hello Simple Queue!");
     }
 
     @Test
@@ -25,6 +25,14 @@ class RabbitmqProducerApplicationTests {
         for (int i = 1; i <= 30; i++) {
             sender.sendToWorkQueue("msg - "+i);
             Thread.sleep(1000);
+        }
+    }
+
+    @Test
+    public void psExchangeSendTest() throws InterruptedException{
+        for (int i = 0; i <10 ; i++) {
+            sender.sendToPsExchange("msg - "+i);
+            Thread.sleep(500);
         }
     }
 

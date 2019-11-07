@@ -1,6 +1,6 @@
 package com.david.config;
 
-import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -20,5 +20,10 @@ public class RabbitmqConfig {
     @Bean
     public Queue workQueue() {
         return new Queue("WorkQueue");
+    }
+
+    @Bean
+    public FanoutExchange psExchange(){
+        return new FanoutExchange("psExchange");
     }
 }

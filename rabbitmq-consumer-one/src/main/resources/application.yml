@@ -5,8 +5,8 @@ spring:
     username: david
     password: admin321
     virtual-host: /dev
-#    listener:
-#      direct:
-#        prefetch: 1
+    listener:
+      direct:
+        prefetch: 1
 server:
   port: 8082
