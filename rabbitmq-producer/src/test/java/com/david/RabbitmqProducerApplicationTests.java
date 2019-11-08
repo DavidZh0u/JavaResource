@@ -36,4 +36,20 @@ class RabbitmqProducerApplicationTests {
         }
     }
 
+    @Test
+    public void directExchangeSendTest() throws InterruptedException{
+        int i = 1;
+        for (; i <= 5 ; i++) {
+            sender.sendToDirectExchange("info","info - log - "+i);
+            Thread.sleep(500);
+        }
+        for (; i <= 10 ; i++) {
+            sender.sendToDirectExchange("warning","warning - log - "+i);
+            Thread.sleep(500);
+        }
+        for (; i <= 15 ; i++) {
+            sender.sendToDirectExchange("error","error - log - "+i);
+            Thread.sleep(500);
+        }
+    }
 }

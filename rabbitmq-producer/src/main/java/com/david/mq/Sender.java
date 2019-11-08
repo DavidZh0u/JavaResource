@@ -1,6 +1,7 @@
 package com.david.mq;
 
 
+import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -27,6 +28,9 @@ public class Sender {
     @Autowired
     private FanoutExchange psExchange;
 
+    @Autowired
+    private DirectExchange directExchange;
+
     public void send(String message) {
         this.template.convertAndSend(simpleQueue.getName(), message);
         System.out.println("发送者 => "+simpleQueue.getName()+" => "+message);
@@ -41,5 +45,11 @@ public class Sender {
         this.template.convertAndSend(psExchange.getName(),"",msg);
         System.out.println("发送者 => "+psExchange.getName()+" => "+msg);
     }
+
+    public void sendToDirectExchange(String routingKey,String msg){
+        this.template.convertAndSend(directExchange.getName(),routingKey,msg);
+        System.out.println("发送者 => "+directExchange.getName()+" => "+routingKey+" => "+msg);
+    }
+
 
 }

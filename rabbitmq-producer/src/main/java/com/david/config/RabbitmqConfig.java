@@ -26,4 +26,10 @@ public class RabbitmqConfig {
     public FanoutExchange psExchange(){
         return new FanoutExchange("psExchange");
     }
+
+    @Bean
+    public DirectExchange directExchange(){
+        return new DirectExchange("directExchange");
+    }
+
 }

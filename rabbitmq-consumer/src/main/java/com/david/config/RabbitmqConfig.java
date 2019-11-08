@@ -1,9 +1,6 @@
 package com.david.config;
 
-import org.springframework.amqp.core.Binding;
-import org.springframework.amqp.core.BindingBuilder;
-import org.springframework.amqp.core.FanoutExchange;
-import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -30,4 +27,18 @@ public class RabbitmqConfig {
         return BindingBuilder.bind(consumerSubQueue).to(psExchange);
     }
 
+    @Bean
+    public DirectExchange directExchange(){
+        return new DirectExchange("directExchange");
+    }
+
+    @Bean
+    public Queue errorLogQueue(){
+        return new Queue("errorLogQueue");
+    }
+
+    @Bean
+    public Binding bindingAtDirectExchange(Queue errorLogQueue,DirectExchange directExchange){
+        return BindingBuilder.bind(errorLogQueue).to(directExchange).with("error");
+    }
 }

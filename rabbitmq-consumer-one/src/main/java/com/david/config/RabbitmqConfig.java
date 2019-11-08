@@ -27,4 +27,29 @@ public class RabbitmqConfig {
         return BindingBuilder.bind(consumerOneSubQueue).to(psExchange);
     }
 
+    @Bean
+    public DirectExchange directExchange(){
+        return new DirectExchange("directExchange");
+    }
+
+    @Bean
+    public Queue allLogQueue(){
+        return new AnonymousQueue();
+    }
+
+    @Bean
+    public Binding bindingAtDirectExchange1(Queue allLogQueue,DirectExchange directExchange){
+        return BindingBuilder.bind(allLogQueue).to(directExchange).with("info");
+    }
+
+    @Bean
+    public Binding bindingAtDirectExchange2(Queue allLogQueue,DirectExchange directExchange){
+        return BindingBuilder.bind(allLogQueue).to(directExchange).with("warning");
+    }
+
+    @Bean
+    public Binding bindingAtDirectExchange3(Queue allLogQueue,DirectExchange directExchange){
+        return BindingBuilder.bind(allLogQueue).to(directExchange).with("error");
+    }
+
 }
