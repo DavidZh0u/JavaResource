@@ -52,4 +52,29 @@ public class RabbitmqConfig {
         return BindingBuilder.bind(allLogQueue).to(directExchange).with("error");
     }
 
+    @Bean
+    public TopicExchange topicExchange(){
+        return new TopicExchange("topicExchange");
+    }
+
+    @Bean
+    public Queue orderQueue(){
+        return new AnonymousQueue();
+    }
+
+    @Bean
+    public Binding bindingAtTopicExchange1(Queue orderQueue,TopicExchange topicExchange){
+        return BindingBuilder.bind(orderQueue).to(topicExchange).with("*.淘宝.*");
+    }
+
+    @Bean
+    public Binding bindingAtTopicExchange2(Queue orderQueue,TopicExchange topicExchange){
+        return BindingBuilder.bind(orderQueue).to(topicExchange).with("*.京东.*");
+    }
+
+    @Bean
+    public Binding bindingAtTopicExchange3(Queue orderQueue,TopicExchange topicExchange){
+        return BindingBuilder.bind(orderQueue).to(topicExchange).with("*.拼多多.*");
+    }
+
 }

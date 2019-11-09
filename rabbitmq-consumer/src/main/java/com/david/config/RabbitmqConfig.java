@@ -41,4 +41,20 @@ public class RabbitmqConfig {
     public Binding bindingAtDirectExchange(Queue errorLogQueue,DirectExchange directExchange){
         return BindingBuilder.bind(errorLogQueue).to(directExchange).with("error");
     }
+
+    @Bean
+    public TopicExchange topicExchange(){
+        return new TopicExchange("topicExchange");
+    }
+
+    @Bean
+    public Queue orderQueue(){
+        return new AnonymousQueue();
+    }
+
+    @Bean
+    public Binding bindingAtTopicExchange(Queue orderQueue,TopicExchange topicExchange){
+        return BindingBuilder.bind(orderQueue).to(topicExchange).with("武汉.#");
+    }
+
 }

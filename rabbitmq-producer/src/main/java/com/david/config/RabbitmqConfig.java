@@ -32,4 +32,9 @@ public class RabbitmqConfig {
         return new DirectExchange("directExchange");
     }
 
+    @Bean
+    public TopicExchange topicExchange(){
+        return new TopicExchange("topicExchange");
+    }
+
 }
