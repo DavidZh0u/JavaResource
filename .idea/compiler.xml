@@ -8,14 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JavaResource" />
         <module name="spring-ioc-di" />
-        <module name="java-multi-thread" />
+        <module name="java-collection-util" />
         <module name="rabbitmq-consumer-two" />
         <module name="rabbitmq-producer" />
         <module name="spring-resource-module" />
-        <module name="rabbitmq-consumer" />
+        <module name="java-multi-thread" />
         <module name="java-basic-grammar" />
         <module name="interview-exam-demo" />
-        <module name="java-collection-util" />
+        <module name="rabbitmq-consumer" />
         <module name="rabbitmq-consumer-one" />
       </profile>
     </annotationProcessing>

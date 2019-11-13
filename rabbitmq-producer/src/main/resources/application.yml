@@ -5,3 +5,13 @@ spring:
     username: david
     password: admin321
     virtual-host: /dev
+    # 生产者异步确认配置参数
+    template:
+      # 开启投递错误，消息强制返回给生产者端
+      mandatory: true
+    # 开启消息发布回调
+    publisher-returns: true
+    # 开启消息发布确认类型
+    publisher-confirm-type: simple
+    # 开启消息发布确认(过期方法不推荐使用，用上面的代替）
+#    publisher-confirms: true

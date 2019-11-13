@@ -1,9 +1,13 @@
 package com.david;
 
+import com.david.mq.SendService;
 import com.david.mq.Sender;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import java.io.IOException;
+import java.util.concurrent.TimeoutException;
 
 @SpringBootTest
 class RabbitmqProducerApplicationTests {
@@ -95,5 +99,41 @@ class RabbitmqProducerApplicationTests {
             sender.sendToTopicExchange(routingKey,routingKey);
         }
     }
+
+    //发送消息高可用测试之事务
+    @Autowired
+    private SendService sendService;
+
+    //发送消息高可用测试之事务
+    @Test
+    public void testSendTx() throws IOException, TimeoutException {
+        sendService.sendWithTransation("测试消息->事务回滚");
+    }
+
+    //发送消息高可用测试之同步确认
+    @Test
+    public void testSendSync() throws IOException, TimeoutException {
+        boolean b = sendService.sendWithSyncConfirm("fanoutExchange","测试消息->同步确认");
+        System.out.println(b);
+    }
+
+    //发送消息高可用测试之异步确认
+    @Test
+    public void testSendAsync(){
+        sendService.sendWithAsyncConfirm("fanoutExchange","","测试消息->异步确认");
+    }
+
+    //发送消息高可用测试之异步确认
+    @Test
+    public void testSendAsyncWithDirectExchange(){
+        sendService.sendWithAsyncConfirm("directExchange","test-routingkeyaaa","测试消息->异步确认");
+    }
+
+    //发送消息高可用测试之异步确认
+    @Test
+    public void testSendAsyncWithBackupExchange(){
+        sendService.sendWithAsyncConfirm("businessExchange","businessKey","测试消息->异步确认222222222");
+    }
+
 
 }

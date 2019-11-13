@@ -7,6 +7,19 @@ spring:
     virtual-host: /dev
     listener:
       simple:
+        # 最多只允许一条未确认
         prefetch: 1
+        # 开启手动应答
+        acknowledge-mode: manual
+        default-requeue-rejected: false
+        # 重试参数
+#        retry:
+#          # 开启重试机制
+#          enabled: true
+#          # 最大重试次数
+#          max-attempts: 5
+#          # 重试间隔时间，单位毫秒
+#          initial-interval: 5000
+
 server:
   port: 8081
